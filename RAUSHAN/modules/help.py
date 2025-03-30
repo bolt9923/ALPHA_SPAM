@@ -109,7 +109,7 @@ spam_msg = f"""
   1) {hl}hang <counter>
 
 
-** © @ll_ALPHA_BABY_lll**
+** © @X1OWNER**
 """                     
            
            
@@ -142,7 +142,7 @@ async def helpback(event):
             ]
           )
     else:
-        await event.answer("Make Your Own Altron Bots !! @ll_ALPHA_BABY_lll", cache_time=0, alert=True)
+        await event.answer("Make Your Own Altron Bots !! @X1OWNER", cache_time=0, alert=True)
 
 
 @X1.on(events.CallbackQuery(pattern=r"spam"))
