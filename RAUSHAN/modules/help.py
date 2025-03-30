@@ -34,7 +34,7 @@ async def help(event):
     if event.sender_id in SUDO_USERS:
         try:
           await event.client.send_file(event.chat_id,
-              "https://telegra.ph/file/c53d9a7df9dbaa5f4db05.jpg",
+              "https://files.catbox.moe/3usvt8.jpg",
               caption=HELP_STRING,
               buttons=HELP_BUTTON
               )
@@ -60,7 +60,7 @@ extra_msg = f"""
   2) {hl}leave : Type in the Group bot will auto leave that group
 
 
-**© @ll_ALPHA_BABY_lll**
+**© @X1OWNER**
 """
 
                  
@@ -180,7 +180,7 @@ async def help_raid(event):
             buttons=[[Button.inline("< Back", data="help_back"),],],
           )
     else:
-        await event.answer("Make Your Own Altron Bots !! @NLTRIDE", cache_time=0, alert=True)
+        await event.answer("Make Your Own  Bots !! @NLTRIDE", cache_time=0, alert=True)
 
 
 @X1.on(events.CallbackQuery(pattern=r"extra"))
@@ -199,4 +199,4 @@ async def help_extra(event):
             buttons=[[Button.inline("< Back", data="help_back"),],],
             )
     else:
-        await event.answer("Make Your Own Altron Bots !! @NLTRIDE", cache_time=0, alert=True)
+        await event.answer("Make Your Own Bots !! @NLTRIDE", cache_time=0, alert=True)
